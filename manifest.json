@@ -1,0 +1,12 @@
+{
+  "name" : "Switch",
+  "version" : "1.0",
+  "description" : "Switch Link To Be Opened In Another Tab",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["switch.js"]
+    }
+  ],
+  "manifest_version": 2
+}
